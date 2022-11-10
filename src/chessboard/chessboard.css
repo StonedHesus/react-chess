@@ -1,0 +1,9 @@
+.row{
+    display: inline-block;
+}
+
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+}

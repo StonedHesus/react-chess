@@ -1,0 +1,37 @@
+.black-tile{
+
+    display: inline;
+    width: 60px;
+    height: 60px;
+}
+
+.black-tile button, .white-tile button{
+    border: 2px solid #000;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 80px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 80px;
+}
+
+.black-tile button{
+    background: rgb(117, 92, 79);
+}
+
+.white-tile button{
+    background: rgb(220, 190, 149);
+}
+
+.black-tile button:hover, .white-tile button:hover{
+    cursor: pointer;
+}
+
+.black-tile button:active, .white-tile button:active{
+    cursor: grab;
+    border: 4px dashed #ffffff;
+}
